@@ -12,7 +12,7 @@ body{
     background:#0f172a;
     color:white;
     overflow-x:hidden;
-    padding:top 90px;;
+    padding-top:90px;;
 }
 
 a{
@@ -517,10 +517,35 @@ footer p{
 }
 
 .menu-toggle{
-    display:none;
+    display:block;
     font-size:30px;
-    cursor:pointer;
     color:white;
+}
+
+.nav-toggle{
+    display:none;
+}
+
+.menu-toggle{
+    display:block;
+    font-size:30px;
+    color:white;
+    cursor: pointer;
+}
+
+.nav-links{
+    display:none;
+}
+
+.nav-links.active{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    top:70px;
+    left:0;
+    width:100%;
+    background:#111827;
+    padding:20px;
 }
 
 .footer{
