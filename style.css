@@ -617,7 +617,7 @@ footer p{
 .menu-toggle{
     display:none;
     font-size:30px;
-    color:#fff;
+    color:#0cef49;
     cursor:pointer;
 }
 
@@ -753,4 +753,5 @@ footer p{
         border-radius:10px;
         gap:15px;
     }
+}
 }
