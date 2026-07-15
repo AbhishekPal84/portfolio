@@ -5,18 +5,9 @@ menuToggle.addEventListener("click", () => {
     navLinks.classList.toggle("active");
 });
 
-
-const links = document.querySelectorAll('.nav-links a');
-
-links.forEach(link => {
-    link.addEventListener('click', function(e) {
-        e.preventDefault();
-
-        const targetId = this.getAttribute('href');
-        const target = document.querySelector(targetId);
-
-        target.scrollIntoView({
-            behavior: 'smooth'
-        });
+// Kisi menu item par click karne ke baad menu band ho jaye
+document.querySelectorAll(".nav-links a").forEach(link => {
+    link.addEventListener("click", () => {
+        navLinks.classList.remove("active");
     });
 });

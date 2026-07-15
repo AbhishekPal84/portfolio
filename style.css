@@ -558,6 +558,7 @@ footer p{
 
     .hero-text{
         width:100%;
+        max-width: 100%;
     }
 
     .hero-image{
